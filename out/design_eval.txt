@@ -1,0 +1,77 @@
+Design day sep21: clean cohort, creator buy 0.025-0.25 ETH, schedule all_at_30s. Single-factor cells (n >= 40):
+  buy      0.025-0.05: n= 809 | bot<=3s  43% | out ETH 60s 0.092 | gen>=20  3.0% | P&L mean +0.0145 [+0.0089,+0.0222] ($ +38.5) med -0.0017 >0  28% | ROI +42.7% | sale +0.0010 (+3.0%) tax 0.0150 | d0.5 +0.0083 | hold6h +0.0141
+  buy        0.05-0.1: n= 433 | bot<=3s  55% | out ETH 60s 0.201 | gen>=20  5.3% | P&L mean +0.0254 [+0.0157,+0.0355] ($ +67.3) med -0.0009 >0  45% | ROI +39.7% | sale +0.0057 (+8.9%) tax 0.0212 | d0.5 +0.0170 | hold6h +0.0213
+  buy        0.1-0.25: n= 178 | bot<=3s  58% | out ETH 60s 0.317 | gen>=20 23.0% | P&L mean +0.0573 [+0.0357,+0.0839] ($+151.8) med +0.0018 >0  56% | ROI +43.9% | sale +0.0184 (+14.1%) tax 0.0404 | d0.5 +0.0407 | hold6h +0.0655
+  tax               0: n= 197 | bot<=3s  54% | out ETH 60s 0.214 | gen>=20 11.7% | P&L mean +0.0066 [+0.0040,+0.0097] ($ +17.5) med -0.0020 >0  36% | ROI  +8.9% | sale +0.0081 (+10.9%) tax -0.0000 | d0.5 +0.0066 | hold6h +0.0006
+  tax             100: n= 420 | bot<=3s  54% | out ETH 60s 0.131 | gen>=20  3.8% | P&L mean +0.0117 [+0.0076,+0.0173] ($ +31.1) med -0.0014 >0  36% | ROI +22.6% | sale +0.0037 (+7.0%) tax 0.0096 | d0.5 +0.0080 | hold6h +0.0081
+  tax         150-250: n= 592 | bot<=3s  42% | out ETH 60s 0.152 | gen>=20  5.1% | P&L mean +0.0276 [+0.0186,+0.0362] ($ +73.0) med -0.0016 >0  35% | ROI +54.0% | sale +0.0044 (+8.6%) tax 0.0247 | d0.5 +0.0176 | hold6h +0.0303
+  tax             300: n= 117 | bot<=3s  48% | out ETH 60s 0.163 | gen>=20 10.3% | P&L mean +0.0734 [+0.0324,+0.1105] ($+194.4) med -0.0012 >0  37% | ROI +126.9% | sale +0.0055 (+9.5%) tax 0.0694 | d0.5 +0.0429 | hold6h +0.0754
+  website         yes: n= 346 | bot<=3s  60% | out ETH 60s 0.268 | gen>=20  8.7% | P&L mean +0.0370 [+0.0240,+0.0531] ($ +98.0) med +0.0009 >0  54% | ROI +61.4% | sale +0.0080 (+13.3%) tax 0.0305 | d0.5 +0.0252 | hold6h +0.0343
+  website          no: n=1074 | bot<=3s  45% | out ETH 60s 0.116 | gen>=20  5.4% | P&L mean +0.0187 [+0.0133,+0.0256] ($ +49.7) med -0.0017 >0  31% | ROI +35.0% | sale +0.0035 (+6.6%) tax 0.0167 | d0.5 +0.0118 | hold6h +0.0190
+  image           yes: n=1327 | bot<=3s  49% | out ETH 60s 0.149 | gen>=20  6.3% | P&L mean +0.0231 [+0.0181,+0.0284] ($ +61.1) med -0.0015 >0  37% | ROI +41.7% | sale +0.0044 (+7.9%) tax 0.0202 | d0.5 +0.0148 | hold6h +0.0221
+  image            no: n=  93 | bot<=3s  37% | out ETH 60s 0.210 | gen>=20  5.4% | P&L mean +0.0248 [+0.0049,+0.0535] ($ +65.8) med -0.0020 >0  33% | ROI +46.9% | sale +0.0083 (+15.7%) tax 0.0180 | d0.5 +0.0187 | hold6h +0.0313
+  hour          00-06: n= 234 | bot<=3s  52% | out ETH 60s 0.147 | gen>=20  7.3% | P&L mean +0.0223 [+0.0107,+0.0398] ($ +59.1) med -0.0017 >0  35% | ROI +38.7% | sale +0.0045 (+7.8%) tax 0.0193 | d0.5 +0.0140 | hold6h +0.0157
+  hour          06-12: n= 323 | bot<=3s  44% | out ETH 60s 0.126 | gen>=20  8.0% | P&L mean +0.0269 [+0.0166,+0.0420] ($ +71.2) med -0.0016 >0  35% | ROI +51.2% | sale +0.0035 (+6.7%) tax 0.0249 | d0.5 +0.0159 | hold6h +0.0279
+  hour          12-18: n= 662 | bot<=3s  49% | out ETH 60s 0.176 | gen>=20  6.2% | P&L mean +0.0236 [+0.0167,+0.0329] ($ +62.7) med -0.0014 >0  38% | ROI +42.8% | sale +0.0058 (+10.4%) tax 0.0194 | d0.5 +0.0161 | hold6h +0.0246
+  hour          18-24: n= 201 | bot<=3s  48% | out ETH 60s 0.129 | gen>=20  2.0% | P&L mean +0.0168 [+0.0058,+0.0309] ($ +44.4) med -0.0015 >0  35% | ROI +29.5% | sale +0.0029 (+5.1%) tax 0.0154 | d0.5 +0.0111 | hold6h +0.0165
+
+Chosen on sep21: max-bot levels {buy: 0.1-0.25 (58%), tax: 100 (54%), website: yes (60%), image: yes (49%), hour: 00-06 (52%)}; max-P&L levels {buy: 0.1-0.25 (+0.0573), tax: 300 (+0.0734), website: yes (+0.0370), image: no (+0.0248), hour: 06-12 (+0.0269)}
+
+Walk-forward: each designed configuration read on every day (the design day first, in-sample):
+
+  A: max bot participation (buy, tax, website, image)
+    sep21: n=  16 | bot<=3s  56% | out ETH 60s 0.278 | gen>=20 25.0% | P&L mean +0.0540 [+0.0199,+0.0939] ($+143.2) med +0.0207 >0  75% | ROI +45.5% | sale +0.0188 (+15.8%) tax 0.0368 | d0.5 +0.0378 | hold6h +0.0286
+    sep27: n=0
+    sep28: n=   9 | bot<=3s 100% | out ETH 60s 0.595 | gen>=20 33.3% | P&L mean +0.0770 [+0.0232,+0.1421] ($+204.1) med +0.0223 >0  89% | ROI +64.1% | sale +0.0410 (+34.2%) tax 0.0375 | d0.5 +0.0621 | hold6h +0.0587
+    oct01: n=   8 | bot<=3s  50% | out ETH 60s 0.081 | gen>=20  0.0% | P&L mean +0.0003 [-0.0020,+0.0031] ($  +0.8) med -0.0014 >0  38% | ROI  +0.2% | sale -0.0002 (-0.2%) tax 0.0020 | d0.5 +0.0002 | hold6h -0.0085
+    oct03: n=   4 | bot<=3s 100% | out ETH 60s 0.033 | gen>=20  0.0% | P&L mean -0.0035 [+nan,+nan] ($  -9.3) med -0.0017 >0  25% | ROI  -3.2% | sale -0.0036 (-3.3%) tax 0.0016 | d0.5 -0.0036 | hold6h -0.0106
+    oct06: n=   1 | bot<=3s 100% | out ETH 60s 0.005 | gen>=20  0.0% | P&L mean -0.0020 [+nan,+nan] ($  -5.3) med -0.0020 >0   0% | ROI  -2.0% | sale -0.0015 (-1.5%) tax 0.0010 | d0.5 -0.0020 | hold6h -0.0126
+
+  B: max mean P&L (buy, tax, website, image)
+    sep21: n=   1 | bot<=3s 100% | out ETH 60s 2.708 | gen>=20 100.0% | P&L mean +0.8987 [+nan,+nan] ($+2381.5) med +0.8987 >0 100% | ROI +898.7% | sale +0.3303 (+330.3%) tax 0.5699 | d0.5 +0.6665 | hold6h +1.1230
+    sep27: n=   1 | bot<=3s 100% | out ETH 60s 0.311 | gen>=20 100.0% | P&L mean +0.1491 [+nan,+nan] ($+395.0) med +0.1491 >0 100% | ROI +124.2% | sale +0.0183 (+15.3%) tax 0.1322 | d0.5 +0.0880 | hold6h +0.1183
+    sep28: n=   1 | bot<=3s 100% | out ETH 60s 0.432 | gen>=20 100.0% | P&L mean +0.1774 [+nan,+nan] ($+470.1) med +0.1774 >0 100% | ROI +136.5% | sale +0.0307 (+23.6%) tax 0.1482 | d0.5 +0.1110 | hold6h +0.1445
+    oct01: n=   2 | bot<=3s 100% | out ETH 60s 0.514 | gen>=20  0.0% | P&L mean +0.0175 [+nan,+nan] ($ +46.3) med +0.0175 >0 100% | ROI +12.9% | sale -0.0100 (-7.4%) tax 0.0290 | d0.5 +0.0175 | hold6h +0.0154
+    oct03: n=0
+    oct06: n=   1 | bot<=3s 100% | out ETH 60s 0.033 | gen>=20  0.0% | P&L mean +0.0017 [+nan,+nan] ($  +4.5) med +0.0017 >0 100% | ROI  +1.2% | sale +0.0014 (+1.0%) tax 0.0017 | d0.5 +0.0017 | hold6h -0.0025
+
+  C: max bot participation, buy + tax only
+    sep21: n=  42 | bot<=3s  48% | out ETH 60s 0.166 | gen>=20 19.0% | P&L mean +0.0489 [+0.0156,+0.1014] ($+129.6) med +0.0008 >0  50% | ROI +39.2% | sale +0.0105 (+8.4%) tax 0.0399 | d0.5 +0.0306 | hold6h +0.0295
+    sep27: n=  24 | bot<=3s  58% | out ETH 60s 0.124 | gen>=20  8.3% | P&L mean +0.0086 [+0.0005,+0.0188] ($ +22.8) med -0.0023 >0  42% | ROI  +7.7% | sale +0.0015 (+1.4%) tax 0.0085 | d0.5 +0.0055 | hold6h -0.0010
+    sep28: n=  43 | bot<=3s  88% | out ETH 60s 0.210 | gen>=20  9.3% | P&L mean +0.0149 [-0.0004,+0.0348] ($ +39.4) med -0.0033 >0  37% | ROI  +9.2% | sale +0.0066 (+4.1%) tax 0.0098 | d0.5 +0.0114 | hold6h +0.0073
+    oct01: n=  26 | bot<=3s  46% | out ETH 60s 0.128 | gen>=20  3.8% | P&L mean +0.0109 [-0.0031,+0.0304] ($ +28.8) med -0.0024 >0  35% | ROI  +7.8% | sale +0.0081 (+5.8%) tax 0.0043 | d0.5 +0.0100 | hold6h -0.0078
+    oct03: n=  23 | bot<=3s  48% | out ETH 60s 0.080 | gen>=20  0.0% | P&L mean +0.0040 [-0.0003,+0.0096] ($ +10.6) med -0.0021 >0  35% | ROI  +3.6% | sale +0.0033 (+3.0%) tax 0.0021 | d0.5 +0.0037 | hold6h -0.0072
+    oct06: n=   7 | bot<=3s  86% | out ETH 60s 0.242 | gen>=20  0.0% | P&L mean +0.0251 [+0.0108,+0.0392] ($ +66.4) med +0.0309 >0  71% | ROI +15.6% | sale +0.0205 (+12.8%) tax 0.0061 | d0.5 +0.0241 | hold6h -0.0086
+
+  D: max mean P&L, buy + tax only
+    sep21: n=  11 | bot<=3s  55% | out ETH 60s 0.331 | gen>=20  9.1% | P&L mean +0.0916 [-0.0013,+0.2667] ($+242.6) med -0.0008 >0  36% | ROI +73.0% | sale +0.0295 (+23.5%) tax 0.0636 | d0.5 +0.0669 | hold6h +0.1076
+    sep27: n=   9 | bot<=3s  78% | out ETH 60s 0.535 | gen>=20 11.1% | P&L mean +0.0699 [+0.0245,+0.1101] ($+185.2) med +0.0535 >0  78% | ROI +50.1% | sale +0.0211 (+15.1%) tax 0.0503 | d0.5 +0.0578 | hold6h +0.0404
+    sep28: n=   9 | bot<=3s  78% | out ETH 60s 0.083 | gen>=20 11.1% | P&L mean +0.0180 [-0.0056,+0.0596] ($ +47.6) med -0.0038 >0  33% | ROI +13.5% | sale -0.0001 (-0.1%) tax 0.0196 | d0.5 +0.0104 | hold6h +0.0124
+    oct01: n=  11 | bot<=3s  45% | out ETH 60s 0.405 | gen>=20  0.0% | P&L mean +0.0450 [+0.0114,+0.0993] ($+119.4) med +0.0200 >0  73% | ROI +32.3% | sale +0.0217 (+15.5%) tax 0.0249 | d0.5 +0.0422 | hold6h +0.0124
+    oct03: n=  21 | bot<=3s  71% | out ETH 60s 0.080 | gen>=20  4.8% | P&L mean +0.0108 [-0.0007,+0.0330] ($ +28.6) med -0.0023 >0  43% | ROI  +8.6% | sale +0.0006 (+0.5%) tax 0.0117 | d0.5 +0.0075 | hold6h +0.0058
+    oct06: n=   3 | bot<=3s  33% | out ETH 60s 0.011 | gen>=20  0.0% | P&L mean -0.0017 [+nan,+nan] ($  -4.5) med -0.0033 >0  33% | ROI  -1.5% | sale -0.0008 (-0.7%) tax 0.0006 | d0.5 -0.0017 | hold6h -0.0031
+
+  base: whole clean cohort 0.025-0.25
+    sep21: n=1420 | bot<=3s  48% | out ETH 60s 0.153 | gen>=20  6.2% | P&L mean +0.0232 [+0.0179,+0.0290] ($ +61.4) med -0.0015 >0  36% | ROI +42.0% | sale +0.0046 (+8.4%) tax 0.0201 | d0.5 +0.0150 | hold6h +0.0227
+    sep27: n= 914 | bot<=3s  50% | out ETH 60s 0.158 | gen>=20  5.7% | P&L mean +0.0176 [+0.0131,+0.0227] ($ +46.6) med -0.0015 >0  41% | ROI +30.4% | sale +0.0049 (+8.5%) tax 0.0142 | d0.5 +0.0125 | hold6h +0.0178
+    sep28: n=1119 | bot<=3s  59% | out ETH 60s 0.156 | gen>=20  5.3% | P&L mean +0.0175 [+0.0130,+0.0228] ($ +46.4) med -0.0015 >0  39% | ROI +27.1% | sale +0.0044 (+6.8%) tax 0.0146 | d0.5 +0.0123 | hold6h +0.0173
+    oct01: n=1178 | bot<=3s  54% | out ETH 60s 0.149 | gen>=20  5.3% | P&L mean +0.0121 [+0.0094,+0.0151] ($ +32.1) med -0.0011 >0  43% | ROI +21.1% | sale +0.0032 (+5.6%) tax 0.0104 | d0.5 +0.0088 | hold6h +0.0090
+    oct03: n= 746 | bot<=3s  45% | out ETH 60s 0.139 | gen>=20  6.2% | P&L mean +0.0149 [+0.0107,+0.0196] ($ +39.6) med -0.0019 >0  37% | ROI +26.2% | sale +0.0026 (+4.5%) tax 0.0139 | d0.5 +0.0100 | hold6h +0.0140
+    oct06: n= 610 | bot<=3s  48% | out ETH 60s 0.184 | gen>=20  6.7% | P&L mean +0.0202 [+0.0149,+0.0261] ($ +53.5) med -0.0008 >0  47% | ROI +37.3% | sale +0.0049 (+9.0%) tax 0.0168 | d0.5 +0.0148 | hold6h +0.0152
+
+Across all days and all single-factor cells (n >= 40): correlation between a cell's bot<=3s share and its mean P&L, and its sale component
+  cells 89: corr(bot share, ROI) = -0.12; corr(bot share, sale ROI) = +0.19
+
+Launch level, per day: launches a bot bought within 3 s vs launches no bot bought within 3 s (clean 0.025-0.25):
+  sep21: bot within 3 s   n= 686 | bot<=3s 100% | out ETH 60s 0.259 | gen>=20  9.3% | P&L mean +0.0428 [+0.0317,+0.0540] ($+113.4) med +0.0012 >0  57% | ROI +71.5% | sale +0.0085 (+14.2%) tax 0.0358 | d0.5 +0.0281 | hold6h +0.0416
+  sep21: no bot in 3 s    n= 734 | bot<=3s   0% | out ETH 60s 0.055 | gen>=20  3.3% | P&L mean +0.0049 [+0.0028,+0.0075] ($ +12.9) med -0.0020 >0  17% | ROI  +9.5% | sale +0.0010 (+2.0%) tax 0.0053 | d0.5 +0.0028 | hold6h +0.0051
+  sep27: bot within 3 s   n= 453 | bot<=3s 100% | out ETH 60s 0.250 | gen>=20  8.4% | P&L mean +0.0281 [+0.0189,+0.0379] ($ +74.5) med +0.0015 >0  58% | ROI +43.5% | sale +0.0087 (+13.4%) tax 0.0209 | d0.5 +0.0208 | hold6h +0.0288
+  sep27: no bot in 3 s    n= 461 | bot<=3s   0% | out ETH 60s 0.067 | gen>=20  3.0% | P&L mean +0.0072 [+0.0041,+0.0111] ($ +19.1) med -0.0022 >0  25% | ROI +14.1% | sale +0.0012 (+2.4%) tax 0.0075 | d0.5 +0.0043 | hold6h +0.0069
+  sep28: bot within 3 s   n= 656 | bot<=3s 100% | out ETH 60s 0.242 | gen>=20  7.5% | P&L mean +0.0252 [+0.0190,+0.0323] ($ +66.9) med +0.0009 >0  54% | ROI +35.1% | sale +0.0076 (+10.5%) tax 0.0192 | d0.5 +0.0189 | hold6h +0.0229
+  sep28: no bot in 3 s    n= 463 | bot<=3s   0% | out ETH 60s 0.035 | gen>=20  2.2% | P&L mean +0.0065 [+0.0006,+0.0182] ($ +17.3) med -0.0023 >0  18% | ROI +12.1% | sale -0.0001 (-0.1%) tax 0.0081 | d0.5 +0.0029 | hold6h +0.0094
+  oct01: bot within 3 s   n= 636 | bot<=3s 100% | out ETH 60s 0.213 | gen>=20  7.1% | P&L mean +0.0175 [+0.0138,+0.0213] ($ +46.4) med +0.0014 >0  58% | ROI +30.9% | sale +0.0048 (+8.4%) tax 0.0142 | d0.5 +0.0132 | hold6h +0.0152
+  oct01: no bot in 3 s    n= 542 | bot<=3s   0% | out ETH 60s 0.073 | gen>=20  3.3% | P&L mean +0.0058 [+0.0025,+0.0090] ($ +15.3) med -0.0022 >0  25% | ROI +10.0% | sale +0.0014 (+2.5%) tax 0.0059 | d0.5 +0.0036 | hold6h +0.0017
+  oct03: bot within 3 s   n= 332 | bot<=3s 100% | out ETH 60s 0.248 | gen>=20  9.3% | P&L mean +0.0222 [+0.0160,+0.0292] ($ +58.8) med +0.0028 >0  61% | ROI +35.5% | sale +0.0052 (+8.4%) tax 0.0185 | d0.5 +0.0167 | hold6h +0.0163
+  oct03: no bot in 3 s    n= 414 | bot<=3s   0% | out ETH 60s 0.052 | gen>=20  3.6% | P&L mean +0.0091 [+0.0037,+0.0147] ($ +24.2) med -0.0022 >0  18% | ROI +17.3% | sale +0.0005 (+0.9%) tax 0.0102 | d0.5 +0.0046 | hold6h +0.0121
+  oct06: bot within 3 s   n= 292 | bot<=3s 100% | out ETH 60s 0.263 | gen>=20 10.6% | P&L mean +0.0310 [+0.0200,+0.0418] ($ +82.0) med +0.0017 >0  58% | ROI +52.4% | sale +0.0078 (+13.2%) tax 0.0247 | d0.5 +0.0227 | hold6h +0.0247
+  oct06: no bot in 3 s    n= 318 | bot<=3s   0% | out ETH 60s 0.112 | gen>=20  3.1% | P&L mean +0.0103 [+0.0060,+0.0150] ($ +27.4) med -0.0020 >0  36% | ROI +20.8% | sale +0.0022 (+4.4%) tax 0.0096 | d0.5 +0.0075 | hold6h +0.0065

@@ -1,0 +1,11 @@
+# raw censuses are shipped gzipped (data/census_<day>.json.gz); the loader falls back to the .gz
+data/census_*.json
+!data/census_*_features.json
+# raw per-launch simulation outputs are large and reproducible (python3 src/creator_sim.py <day>)
+out/creator_sim_*.json
+out/*.log
+out/*.err
+out/run_all.sh
+out/pull_more.sh
+__pycache__/
+*.pyc

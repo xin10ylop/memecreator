@@ -1,0 +1,104 @@
+Creator's launch-block buy (ETH) vs outcomes, five windows, ETH-quoted launches, one-off creators (1 launch that day) and serial separately.
+Columns: n | share with any other trade | share creator sold in window | fees/stake (0.7% of volume) | sale P&L/stake as actually timed | at 10 min | at best | TP1.5x hit | median (fees+actual)/stake | mean ETH net per launch (fees+actual)
+
+== 2026-08-12 12:00-18:00 UTC: 374 ETH-quoted launches with a launch-block buy ==
+  one-off (n=323)
+    buy     <0.002: n=   36 | other trade   56% | sold   25% | fees +947.4% | actual   +0.2% | 10m  -44.1% | best  +40.5% | TP1.5   6% | median    +0% | net +0.0023 ETH
+    buy 0.002-0.01: n=   16 | other trade   94% | sold   69% | fees +211.7% | actual  +18.7% | 10m  -41.2% | best  +72.3% | TP1.5   6% | median    +3% | net +0.0101 ETH
+    buy  0.01-0.03: n=  151 | other trade  100% | sold   96% | fees   +9.5% | actual   +2.2% | 10m  -88.4% | best  +11.8% | TP1.5   3% | median    +6% | net +0.0024 ETH
+    buy   0.03-0.1: n=   94 | other trade   99% | sold   97% | fees  +16.7% | actual   +1.5% | 10m  -66.6% | best  +42.3% | TP1.5  13% | median    +5% | net +0.0077 ETH
+    buy    0.1-0.3: n=   25 | other trade  100% | sold   96% | fees  +12.4% | actual   +4.0% | 10m  -37.5% | best  +46.2% | TP1.5  32% | median    +3% | net +0.0240 ETH
+  2-9/day (n=51)
+    buy     <0.002: n=   12 | other trade   50% | sold   33% | fees   +2.0% | actual   -1.0% | 10m  -84.8% | best   -1.0% | TP1.5   0% | median    -0% | net +0.0000 ETH
+    buy  0.01-0.03: n=   10 | other trade  100% | sold  100% | fees   +4.7% | actual   -0.9% | 10m  -93.0% | best   +1.6% | TP1.5   0% | median    +1% | net +0.0007 ETH
+    buy   0.03-0.1: n=   18 | other trade  100% | sold  100% | fees  +13.0% | actual   -0.2% | 10m  -62.3% | best  +20.6% | TP1.5  17% | median    +1% | net +0.0051 ETH
+  serial 10+ (n=0)
+
+== 2026-08-20 12:00-18:00 UTC: 432 ETH-quoted launches with a launch-block buy ==
+  one-off (n=204)
+    buy     <0.002: n=   16 | other trade   81% | sold   56% | fees +135.3% | actual   -0.1% | 10m  -79.1% | best   +1.6% | TP1.5   6% | median    +5% | net +0.0009 ETH
+    buy  0.01-0.03: n=   94 | other trade  100% | sold   94% | fees  +26.9% | actual  +11.1% | 10m  -79.2% | best  +22.4% | TP1.5  11% | median    +1% | net +0.0065 ETH
+    buy   0.03-0.1: n=   69 | other trade  100% | sold   86% | fees  +17.4% | actual  +24.9% | 10m  -25.2% | best  +74.7% | TP1.5  23% | median    +3% | net +0.0234 ETH
+    buy    0.1-0.3: n=   15 | other trade  100% | sold   87% | fees   +5.3% | actual  +16.3% | 10m  -71.8% | best  +38.8% | TP1.5  13% | median    +0% | net +0.0274 ETH
+  2-9/day (n=55)
+    buy     <0.002: n=   22 | other trade   64% | sold   36% | fees  +22.9% | actual   -0.8% | 10m  -72.8% | best   +0.6% | TP1.5   0% | median    +1% | net +0.0001 ETH
+    buy   0.03-0.1: n=   11 | other trade  100% | sold   91% | fees   +4.0% | actual   -0.6% | 10m  -83.6% | best   +7.9% | TP1.5   0% | median    +2% | net +0.0016 ETH
+  serial 10+ (n=173)
+    buy     <0.002: n=  149 | other trade   91% | sold   77% | fees  +11.5% | actual   -1.0% | 10m  -94.5% | best   -0.9% | TP1.5   0% | median    +0% | net +0.0000 ETH
+    buy 0.002-0.01: n=   11 | other trade   91% | sold   91% | fees   +2.8% | actual   -1.0% | 10m  -72.2% | best   -0.1% | TP1.5   0% | median    +0% | net +0.0001 ETH
+
+== 2026-08-27 12:00-18:00 UTC: 1867 ETH-quoted launches with a launch-block buy ==
+  one-off (n=1254)
+    buy     <0.002: n=   31 | other trade   87% | sold   39% | fees +1941.1% | actual  +66.6% | 10m   +7.4% | best +114.1% | TP1.5  19% | median  +294% | net +0.0108 ETH
+    buy 0.002-0.01: n=   70 | other trade  100% | sold   79% | fees +222.0% | actual   +0.9% | 10m  -65.7% | best  +71.5% | TP1.5  21% | median   +26% | net +0.0117 ETH
+    buy  0.01-0.03: n=  532 | other trade   99% | sold   93% | fees  +56.4% | actual  +23.3% | 10m  -63.9% | best  +55.1% | TP1.5  18% | median    +8% | net +0.0124 ETH
+    buy   0.03-0.1: n=  415 | other trade  100% | sold   92% | fees  +35.6% | actual  +32.2% | 10m  -56.5% | best  +98.8% | TP1.5  34% | median    +9% | net +0.0354 ETH
+    buy    0.1-0.3: n=   73 | other trade  100% | sold   97% | fees  +14.9% | actual   +5.9% | 10m  -67.1% | best  +80.4% | TP1.5  40% | median    +7% | net +0.0322 ETH
+    buy      0.3-1: n=  104 | other trade  100% | sold   99% | fees   +5.5% | actual  +10.7% | 10m  -93.3% | best  +61.6% | TP1.5  50% | median   +11% | net +0.0848 ETH
+    buy        >=1: n=   29 | other trade  100% | sold   93% | fees   +3.0% | actual  +17.6% | 10m  -84.3% | best  +35.1% | TP1.5  28% | median    +7% | net +0.2259 ETH
+  2-9/day (n=312)
+    buy     <0.002: n=   40 | other trade   82% | sold   48% | fees +195.5% | actual   +4.1% | 10m  -46.6% | best  +10.0% | TP1.5   2% | median   +75% | net +0.0010 ETH
+    buy 0.002-0.01: n=   29 | other trade  100% | sold   86% | fees  +19.5% | actual   +0.2% | 10m  -78.0% | best   +5.2% | TP1.5   3% | median    +8% | net +0.0010 ETH
+    buy  0.01-0.03: n=   78 | other trade  100% | sold   95% | fees  +31.0% | actual   +1.3% | 10m  -86.4% | best  +22.3% | TP1.5   8% | median   +11% | net +0.0043 ETH
+    buy   0.03-0.1: n=   92 | other trade  100% | sold   98% | fees  +14.7% | actual  +11.6% | 10m  -82.6% | best  +39.0% | TP1.5  10% | median    +6% | net +0.0132 ETH
+    buy    0.1-0.3: n=   48 | other trade  100% | sold   92% | fees  +19.8% | actual  +39.5% | 10m  -32.1% | best +117.6% | TP1.5  42% | median    +8% | net +0.0969 ETH
+    buy      0.3-1: n=   25 | other trade  100% | sold  100% | fees   +3.1% | actual   +4.7% | 10m  -99.5% | best  +22.0% | TP1.5  16% | median    +5% | net +0.0396 ETH
+  serial 10+ (n=301)
+    buy     <0.002: n=  167 | other trade   52% | sold    2% | fees +617.6% | actual   -0.9% | 10m  -17.4% | best  +31.5% | TP1.5   2% | median   +27% | net +0.0005 ETH
+    buy 0.002-0.01: n=   33 | other trade  100% | sold  100% | fees  +29.3% | actual   +1.6% | 10m  -91.5% | best   +5.7% | TP1.5   3% | median   +20% | net +0.0013 ETH
+    buy  0.01-0.03: n=   50 | other trade  100% | sold  100% | fees   +4.5% | actual   -0.4% | 10m -100.0% | best   +1.1% | TP1.5   0% | median    +0% | net +0.0004 ETH
+    buy   0.03-0.1: n=   13 | other trade  100% | sold  100% | fees  +26.6% | actual   +0.7% | 10m  -99.7% | best  +76.8% | TP1.5  31% | median   +11% | net +0.0128 ETH
+    buy    0.1-0.3: n=   30 | other trade  100% | sold  100% | fees  +11.8% | actual   +5.5% | 10m  -85.2% | best  +63.0% | TP1.5  23% | median   +12% | net +0.0246 ETH
+
+== 2026-09-02 12:00-18:00 UTC: 2576 ETH-quoted launches with a launch-block buy ==
+  one-off (n=1794)
+    buy     <0.002: n=  136 | other trade   98% | sold   60% | fees +375.9% | actual   +2.5% | 10m  -58.3% | best  +15.6% | TP1.5   7% | median  +113% | net +0.0035 ETH
+    buy 0.002-0.01: n=  114 | other trade  100% | sold   75% | fees +200.9% | actual   +6.6% | 10m  -53.7% | best  +51.7% | TP1.5  11% | median   +28% | net +0.0125 ETH
+    buy  0.01-0.03: n=  357 | other trade  100% | sold   86% | fees  +68.2% | actual  +31.4% | 10m  -43.6% | best  +83.2% | TP1.5  18% | median   +10% | net +0.0159 ETH
+    buy   0.03-0.1: n=  857 | other trade  100% | sold   94% | fees  +21.3% | actual  +20.1% | 10m  -71.8% | best  +84.6% | TP1.5  34% | median    +9% | net +0.0250 ETH
+    buy    0.1-0.3: n=  204 | other trade  100% | sold   95% | fees  +16.7% | actual  +33.5% | 10m  -39.1% | best +157.7% | TP1.5  49% | median   +10% | net +0.0749 ETH
+    buy      0.3-1: n=   99 | other trade  100% | sold   98% | fees   +7.9% | actual  +22.5% | 10m  -52.5% | best +115.4% | TP1.5  57% | median   +12% | net +0.1667 ETH
+    buy        >=1: n=   27 | other trade  100% | sold   85% | fees   +3.2% | actual  +35.6% | 10m  -36.8% | best  +72.9% | TP1.5  59% | median   +15% | net +0.5397 ETH
+  2-9/day (n=566)
+    buy     <0.002: n=   58 | other trade   88% | sold   52% | fees +111.1% | actual   +0.0% | 10m  -44.1% | best   +5.6% | TP1.5   2% | median   +92% | net +0.0010 ETH
+    buy 0.002-0.01: n=   46 | other trade  100% | sold   89% | fees  +68.3% | actual   +0.2% | 10m  -80.0% | best  +17.1% | TP1.5   7% | median   +18% | net +0.0031 ETH
+    buy  0.01-0.03: n=  106 | other trade   95% | sold   88% | fees  +55.2% | actual  +12.3% | 10m  -62.4% | best  +56.1% | TP1.5  14% | median    +6% | net +0.0101 ETH
+    buy   0.03-0.1: n=  199 | other trade  100% | sold   97% | fees  +18.2% | actual   +8.2% | 10m  -81.5% | best  +67.8% | TP1.5  29% | median    +7% | net +0.0142 ETH
+    buy    0.1-0.3: n=  125 | other trade  100% | sold   98% | fees  +11.0% | actual   +1.4% | 10m  -91.6% | best  +71.4% | TP1.5  34% | median    +6% | net +0.0171 ETH
+    buy      0.3-1: n=   28 | other trade  100% | sold  100% | fees  +20.0% | actual   +5.9% | 10m  -86.3% | best +159.9% | TP1.5  75% | median   +19% | net +0.1050 ETH
+  serial 10+ (n=216)
+    buy     <0.002: n=   31 | other trade   68% | sold   58% | fees  +22.0% | actual   -0.5% | 10m  -54.3% | best   +0.6% | TP1.5   0% | median    +3% | net +0.0002 ETH
+    buy  0.01-0.03: n=   25 | other trade  100% | sold  100% | fees   +9.4% | actual   -0.5% | 10m  -91.7% | best   +5.6% | TP1.5   4% | median    +1% | net +0.0009 ETH
+    buy   0.03-0.1: n=   48 | other trade  100% | sold  100% | fees   +7.3% | actual   +0.5% | 10m  -98.3% | best  +17.7% | TP1.5  10% | median    +0% | net +0.0039 ETH
+    buy    0.1-0.3: n=   90 | other trade  100% | sold  100% | fees   +6.3% | actual   +1.6% | 10m  -98.9% | best  +31.0% | TP1.5  21% | median    +3% | net +0.0136 ETH
+    buy      0.3-1: n=   18 | other trade  100% | sold  100% | fees   +2.6% | actual   +2.3% | 10m  -97.1% | best  +11.2% | TP1.5   6% | median    +4% | net +0.0177 ETH
+
+== 2026-09-03 12:00-18:00 UTC: 2158 ETH-quoted launches with a launch-block buy ==
+  one-off (n=1533)
+    buy     <0.002: n=  126 | other trade   91% | sold   60% | fees +240.4% | actual   +0.2% | 10m  -70.7% | best   +7.7% | TP1.5   6% | median   +56% | net +0.0018 ETH
+    buy 0.002-0.01: n=  101 | other trade   99% | sold   70% | fees  +78.0% | actual  +27.7% | 10m  -24.1% | best  +50.9% | TP1.5  12% | median   +31% | net +0.0063 ETH
+    buy  0.01-0.03: n=  281 | other trade   98% | sold   79% | fees  +98.3% | actual  +47.5% | 10m  -31.9% | best +101.0% | TP1.5  25% | median   +12% | net +0.0261 ETH
+    buy   0.03-0.1: n=  691 | other trade  100% | sold   90% | fees  +33.0% | actual  +27.0% | 10m  -58.3% | best +133.7% | TP1.5  49% | median   +17% | net +0.0339 ETH
+    buy    0.1-0.3: n=  247 | other trade   99% | sold   92% | fees  +14.0% | actual  +29.1% | 10m  -54.8% | best +145.6% | TP1.5  51% | median   +13% | net +0.0661 ETH
+    buy      0.3-1: n=   47 | other trade  100% | sold   94% | fees  +12.7% | actual  +44.1% | 10m  -22.4% | best +178.7% | TP1.5  74% | median   +20% | net +0.2643 ETH
+    buy        >=1: n=   40 | other trade  100% | sold   95% | fees   +3.7% | actual  +57.1% | 10m  -52.0% | best  +78.3% | TP1.5  62% | median   +49% | net +0.7145 ETH
+  2-9/day (n=458)
+    buy     <0.002: n=   39 | other trade   85% | sold   49% | fees +741.8% | actual   +3.4% | 10m  -63.7% | best  +86.4% | TP1.5  10% | median   +14% | net +0.0048 ETH
+    buy 0.002-0.01: n=   51 | other trade  100% | sold   92% | fees  +33.7% | actual   +1.7% | 10m  -73.5% | best  +10.3% | TP1.5   2% | median   +23% | net +0.0016 ETH
+    buy  0.01-0.03: n=   72 | other trade  100% | sold   83% | fees  +45.7% | actual  +20.9% | 10m  -47.3% | best  +55.8% | TP1.5  18% | median    +8% | net +0.0105 ETH
+    buy   0.03-0.1: n=  152 | other trade  100% | sold   93% | fees  +20.2% | actual  +11.6% | 10m  -79.6% | best  +98.6% | TP1.5  36% | median   +11% | net +0.0179 ETH
+    buy    0.1-0.3: n=  124 | other trade   99% | sold   98% | fees  +12.9% | actual   +8.7% | 10m  -80.8% | best  +93.2% | TP1.5  35% | median    +6% | net +0.0280 ETH
+    buy      0.3-1: n=   17 | other trade  100% | sold   94% | fees  +12.1% | actual  +34.9% | 10m  -25.8% | best +169.7% | TP1.5  65% | median    +7% | net +0.1991 ETH
+  serial 10+ (n=167)
+    buy  0.01-0.03: n=   12 | other trade   92% | sold   92% | fees   +3.4% | actual   -0.6% | 10m  -95.6% | best   +2.3% | TP1.5   0% | median    +2% | net +0.0006 ETH
+    buy   0.03-0.1: n=   37 | other trade  100% | sold  100% | fees   +2.2% | actual   -0.6% | 10m -100.0% | best   +1.8% | TP1.5   0% | median    +0% | net +0.0008 ETH
+    buy    0.1-0.3: n=   80 | other trade  100% | sold   96% | fees   +3.8% | actual  +12.4% | 10m  -81.8% | best  +25.2% | TP1.5  18% | median    +0% | net +0.0269 ETH
+    buy      0.3-1: n=   24 | other trade  100% | sold   92% | fees   +5.8% | actual  +27.2% | 10m  -65.1% | best  +54.5% | TP1.5  29% | median    +2% | net +0.1321 ETH
+
+Share of launches where nobody else traded, by creator buy bucket (all creators, ETH-quoted):
+      window      <0.002  0.002-0.01   0.01-0.03    0.03-0.1     0.1-0.3       0.3-1         >=1
+  2026-08-12        46%(  48)         5%(  22)         0%( 161)         1%( 112)         0%(  30)         0%(   1)           -
+  2026-08-20        13%( 187)         9%(  23)         0%( 102)         0%(  84)         0%(  31)         0%(   5)           -
+  2026-08-27        38%( 238)         0%( 132)         0%( 660)         0%( 520)         0%( 151)         0%( 137)         0%(  29)
+  2026-09-02         9%( 225)         0%( 163)         1%( 488)         0%(1104)         0%( 419)         0%( 145)         0%(  32)
+  2026-09-03        10%( 172)         1%( 158)         2%( 365)         0%( 880)         1%( 451)         0%(  88)         0%(  44)
