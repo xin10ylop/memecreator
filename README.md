@@ -10,9 +10,10 @@ configurations that attract the most bots do not earn more out of sample. The au
 and early October 2026 are small (0.01-0.04 ETH a buy), exit within a minute, and lose money as a class; selling
 the creator's inventory into them is worth a few percent of the stake on average with a negative median. Most of
 the mean creator income is the creator tax on outside volume, which exists only on the minority of launches that
-draw real buyers, and which the launch configuration predicts weakly (AUC 0.60-0.72 out of sample). The
-exit-schedule choice does not matter at the precision the data allows, and the day-to-day regime matters more
-than any lever the creator holds.
+draw real buyers, and which the launch configuration predicts weakly (AUC 0.56-0.73 out of sample). The
+exit-schedule choice does not matter at the precision the data allows; once the buyers' response to a creator's
+dump is priced (an independent audit measured it on the real tapes), holding beats every early exit; and the
+day-to-day regime matters more than any lever the creator holds.
 
 All data comes from the public chain (every Pons V2 factory launch of seven full UTC days and every bonding-curve
 trade in the six hours after each) and from the `xin10ylop/fomo-memebot` repository, which documents the launchpad
